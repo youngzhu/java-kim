@@ -16,5 +16,5 @@
     + 定义：将n个对象放到m个桶里。时间O(mn)，m较小时就是O(n)，线性时间。难点在于m的选择。常用于大型的图书馆系统整理图书。m就是某个楼层或者书架。
 
 ## 其他
-- [约瑟夫环（优雅的解法）](main/src/main/java/com/youngzy/Josephus.java)
+- [约瑟夫环（优雅的解法）](src/main/java/com/youngzy/Josephus.java)
 
