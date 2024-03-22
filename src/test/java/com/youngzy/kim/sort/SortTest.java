@@ -1,4 +1,4 @@
-package com.youngzy.sort;
+package com.youngzy.kim.sort;
 
 import org.junit.Before;
 import org.junit.BeforeClass;

@@ -1,4 +1,4 @@
-package com.youngzy.basic;
+package com.youngzy.kim.basic;
 
 /**
  * Lazy Initialization Holder Class 惯用法

@@ -1,4 +1,4 @@
-package com.youngzy.sort;
+package com.youngzy.kim.sort;
 
 public interface ISort {
     void sort(int[] a);

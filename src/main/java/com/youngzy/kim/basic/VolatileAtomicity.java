@@ -1,4 +1,4 @@
-package com.youngzy.basic;
+package com.youngzy.kim.basic;
 
 /**
  * volatile 不能保证原子性

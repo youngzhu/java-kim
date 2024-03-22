@@ -1,4 +1,4 @@
-package com.youngzy.basic;
+package com.youngzy.kim.basic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

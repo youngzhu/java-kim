@@ -1,10 +1,9 @@
-package com.youngzy.roman;
+package com.youngzy.kim.roman;
 
 import org.junit.Test;
 
-import static com.youngzy.roman.RomanNumeral.NUMERAL_MUST_BE_3999_OR_LESS;
-import static com.youngzy.roman.RomanNumeralParser.INVALID_ROMAN_NUMERAL;
-import static com.youngzy.roman.RomanNumeralParser.parse;
+import static com.youngzy.kim.roman.RomanNumeralParser.INVALID_ROMAN_NUMERAL;
+import static com.youngzy.kim.roman.RomanNumeralParser.parse;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -42,6 +41,6 @@ public class RomanNumeralParserTest {
         } catch (Exception e) {
             errorMsg = e.getMessage();
         }
-        assertEquals(NUMERAL_MUST_BE_3999_OR_LESS, errorMsg);
+        assertEquals(RomanNumeral.NUMERAL_MUST_BE_3999_OR_LESS, errorMsg);
     }
 }

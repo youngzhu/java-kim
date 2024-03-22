@@ -1,4 +1,4 @@
-package com.youngzy.sort;
+package com.youngzy.kim.sort;
 
 /**
  * 插入排序
