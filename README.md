@@ -8,9 +8,9 @@
 只能保证可见性，不保证原子性，参见
 
 ## 排序
-- [x] 冒泡排序
-- [x] 插入排序
-- [x] 比较计数排序
+- [x] [冒泡排序](src/main/java/com/youngzy/sort/BubbleSort.java)
+- [x] [插入排序](src/main/java/com/youngzy/sort/InsertSort.java)
+- [x] [比较计数排序](src/main/java/com/youngzy/sort/CompareCountSort.java)
     + 定义：每个排序对象都会与其他对象做比较，从而统计出比该排序对象小的对象一共有多少个。这个数字可以直接表示该排序对象的排名。
     + 优点：容错能力强。对应到比赛中就是公平。不会有输掉一局就输掉整个比赛的问题。
 - [ ] 合并排序
@@ -20,5 +20,5 @@
     + 定义：将n个对象放到m个桶里。时间O(mn)，m较小时就是O(n)，线性时间。难点在于m的选择。常用于大型的图书馆系统整理图书。m就是某个楼层或者书架。
 
 ## 其他
-- 约瑟夫环（优雅的解法）
+- [约瑟夫环（优雅的解法）](src/main/java/com/youngzy/Josephus.java)
 
